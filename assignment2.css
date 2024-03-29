@@ -1,0 +1,115 @@
+
+h1 {
+    color: orange;
+    margin-left: 13%;
+    /* aligning with the rest of the content */
+    text-transform: uppercase;
+    /* transoforming to uppercase */
+}
+
+.a{
+   
+    font-family: 'Baskerville', serif; /* Use Baskerville for headings */
+      
+}
+
+h2 {
+    font-size: medium;
+    /* changing size of all h2 tags */
+    margin: -10px 0px;
+
+}
+
+strong {
+    color: orange;
+}
+
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10%; /* aligning it to the center*/
+}
+
+/* Style for the main container */
+article {
+    display: flex;
+    margin: 0 auto;
+    /* Center the container horizontally */
+    max-width: 75%;
+}
+
+/* Style for the first column */
+.column1 {
+    width: 50%;
+    /* Takes up 50% of the container */
+    padding: 10px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+/* Style for the image in the first column */
+.column1 img {
+    width: 100%;
+    /* Image takes up full width of its container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.column1 .paragraph1 h2 {
+    font-size: 40px;
+    text-transform: lowercase;
+}
+
+.column1 .paragraph1 h2::first-letter {
+    text-transform: capitalize;
+}
+
+/* Style for paragraphs in the first column */
+.column1 .paragraph1 {
+    width: 100%;
+    /* Takes up full width of its container */
+    margin: 10px 0;
+    /* Adjust margin as needed */
+    text-align: center;
+}
+
+
+/* Style for the two smaller paragraphs in the first column */
+.column1 .smaller-paragraphs {
+    width: 100%;
+    /* Takes up full width of its container */
+    display: flex;
+    justify-content: space-between;
+    /* Evenly distribute space between paragraphs */
+    gap: 10px;
+}
+
+
+/* Style for the second column */
+.column2 {
+    width: 25%;
+    /* Takes up 50% of the container */
+    padding: 10px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+/* Style for the big paragraph in the second column */
+.column2 .big-paragraph {
+    width: 100%;
+    /* Takes up full width of its container */
+    margin: 10px 0;
+    
+}
+
+.author {
+    font-weight: bold;
+}
+
+
+footer {
+    margin-left: 13%;
+    text-transform: uppercase;
+}
